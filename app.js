@@ -4,7 +4,6 @@ const http = require('https');
 const states = ['NJ', 'NY'];
 const cities = ['TROY'];
 
-//The url we want is: 'www.random.org/integers/?num=1&min=1&max=10&col=1&base=10&format=plain&rnd=new'
 const options = {
   host: 'www.cvs.com',
   path: '/immunizations/covid-19-vaccine.vaccine-status.json'
